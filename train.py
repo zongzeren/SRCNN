@@ -16,9 +16,9 @@ from utils import AverageMeter, calc_psnr
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--train-file', type=str, default='D:\\Notes\\SRCNN-pytorch\\91-image_x3.h5')
-    parser.add_argument('--eval-file', type=str, default='D:\\Notes\\SRCNN-pytorch\\Set5_x3.h5')
-    parser.add_argument('--outputs-dir', type=str, default='D:\\Notes\\SRCNN-pytorch\\output')
+    parser.add_argument('--train-file', type=str, default='D:\\Notes\\SRCNN\\91-image_x3.h5')
+    parser.add_argument('--eval-file', type=str, default='D:\\Notes\\SRCNN\\Set5_x3.h5')
+    parser.add_argument('--outputs-dir', type=str, default='D:\\Notes\\SRCNN\\output')
     parser.add_argument('--scale', type=int, default=3)
     parser.add_argument('--lr', type=float, default=1e-4)
     parser.add_argument('--batch-size', type=int, default=16)

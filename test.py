@@ -11,8 +11,8 @@ from utils import convert_rgb_to_ycbcr, convert_ycbcr_to_rgb, calc_psnr
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights-file', type=str, default='D:\\Notes\\SRCNN-pytorch\\srcnn_x3.pth')
-    parser.add_argument('--image-file', type=str, default='D:\\Notes\\SRCNN-pytorch\\self\\5.bmp')
+    parser.add_argument('--weights-file', type=str, default='D:\\Notes\\SRCNN\\best.pth')
+    parser.add_argument('--image-file', type=str, default='D:\\Notes\\SRCNN\\data\\3.bmp')
     parser.add_argument('--scale', type=int, default=3)
     args = parser.parse_args()
 
